@@ -17,10 +17,9 @@ title: The Compost Bin
 email: MasonTD@hendrix.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This blog will cover the journey of my research with Dr. Mark
-  Goadrich at Hendrix College. After he created the RECYCLEd
-  CardStock project with the purpose of finding similarities and
-  differences in card games, I have asked to join him in order to
-  help with overhauling the engine and gettingit to run faster.
+  Goadrich at Hendrix College. We are working on the RECYCLEd
+  CardStock project, which simulates and gathers data from card
+  games.
 baseurl: /blog # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
