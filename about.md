@@ -3,16 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+# About Me
+Hello, my name is Tyrone Demond Mason, but I prefer to go by Mason. I am a rising senior at Hendrix College in
+Conway, Arkansas, where I have lived since 2015.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Project Background
+To maximize my time for the summer, I chose to help one of my professors, Dr. Mark Goadrich, with a project that
+interested me. It is known as RECYCLEd CardStock, and is an exciting method of simulating card games between AI
+players and finding what variants of games provide more interesting and dramatic outcomes.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+# Project Goals
+Over the next few weeks, I plan to assist Dr. Goadrich in the following ways:
+- [ ] Rewriting the engine's code in order to increase simulation speed.
+- [ ] TBD
