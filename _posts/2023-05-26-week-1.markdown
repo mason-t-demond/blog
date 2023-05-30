@@ -21,17 +21,26 @@ On Wednesday, I met with Dr. Goadrich again and shared my progress with him. I h
 
 I also created a BlogSpot page at the suggestion of Dr. Goadrich, however, you can now see that I ended up going with a blog through GitHub. After testing, I officially made my first pull request to the repository, which was adding Enchère to the list of games.
 
-I then explored alternative methods of modifying Enchère after a suggestion by Goadrich. Due to the limitations of the language, I made Enchère into a game that was very linear in who was likely to win and lose. Therefore, I had to find some ways to make it a bit more exciting as the game progressed. Some ideas that we came up with were a requirement to follow suit, penalizing certain cards, and even trading out cards.
+I then explored alternative methods of modifying Enchère after a suggestion by Dr. Goadrich. Due to the limitations of the language, I made Enchère into a game that was very linear in who was likely to win and lose. Therefore, I had to find some ways to make it a bit more exciting as the game progressed. Some ideas that we came up with were a requirement to follow suit, penalizing certain cards, and even trading out cards.
 
 I also continued my search for adding hand-building to Enchère. This included an online discussion with Noah, who was actually working on a version of Poker in the RECYCLE language. He created an algorithm to try and find poker hands, however it wasn't completely finished at the time and was hard to understand, so I scrapped it altogether for a different version of the original game.
 
 ## Thursday (5/25)
-Today's work was lengthy but mostly code-oriented. I modified Enchère with many different rules. For one, the Joker was added to the pile of Queens, Kings and Aces, and players who won it were penalized 10 points. Additionally, I made the King of Hearts the card to win, with it being worth 7 points. Hearts in general were also favored as they gave the holder 2 points. All other cards were worth one. Also, the remaining card in the deck was now denoted the "Spare". A card played with the same rank as the spare was given even more priority than cards that simply match the suit of the betting card. This allows players with worse hands a chance to win more hands, especially if the spare is a really low-ranked card. This new version was dubbed Enchère Avancée (French for Advanced Auction)
+Today's work was lengthy but mostly code-oriented. I modified Enchère with many different rules, with this modified version now being known as Enchère Avancée (Advanced Auction) 
+
+#### Addition of the Joker
+After looking at the games Knaves and Omnibus Hearts, I added the Joker to the pile of Queens, Kings and Aces, and players who win it are penalized 10 points. This can assist some players in preventing leads from getting too high. 
+
+#### Suit-based Gameplay
+Additionally, players are now required to follow suits in order to win the cards they are bidding on. There is a catch, however, which is known as the "Spare", or the card left over from the deck. A card played with the same rank as the spare was given even more priority than cards that simply match the suit of the betting card, so if the spare ends up being a really low number, this could greatly benefit those with worse hands.
+
+#### A New Points System
+Finally, the points system was modified to revolve around winning Hearts cards. Any card won is worth a point, however hearts are worth an extra point. Additionally, the King of Hearts is worth 7 total points. This means if a player were to win every suit except the Joker (a perfect hand), they would have 20 points.
 
 I also started working on a potential idea for Solitaire in CardStock after spending much of the afternoon playing solitaire with my friends.
 
 ## Friday (5/26)
-On today's meeting with Dr. Goadrich, we updated our progress with Goadrich, then played two games: Stealing Bundles and Zappia (this may not be the exact name of the game). Afterwards, I then had to meet with Dr. Goadrich individually in order to fix a few of the issues that Enchère Avancée had within the code. Afterwards, I could finally test it and gather statistics on it.
+On today's meeting with Dr. Goadrich, we updated him on our progress and then played two games: Stealing Bundles and Razzia. Afterwards, I then had to meet with Dr. Goadrich individually in order to fix a few of the issues that Enchère Avancée had within the code. Afterwards, I could finally test it and gather statistics on it.
 
 I also discussed my Solitaire idea with Dr. Goadrich, however he explained to me that CardStock is better suited to multiplayer games. Therefore, I set out on my goal to create a multiplayer game based on Solitaire.
 
@@ -45,4 +54,4 @@ As I'm very bad at writing conclusions, the final section of every blog will be 
 - Create Ladder in CardStock (a hybrid of Uno and Solitaire that could be interesting)
 - Create presentation for Wednesday, June 1st (Will present my current project progress to another group of researchers)
 - Get help from a friend in changing the blog's theme.
-- Dr. Goadrich mentioned another thing he wanted me to start working on next week, but by this point I have forgotten.
+- Working with engine code as opposed to RECYCLE code.
