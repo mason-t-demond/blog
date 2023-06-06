@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 1: Introduction to CardStock"
 date:   2023-05-26 16:44:37 -0500
-categories: cardstock
+categories: cardstock recycle enchere
 ---
 ## Monday (5/22)
 My journey into the CardStock language began Monday, May 22 with a meeting with Dr. Goadrich, one of my Computer Science professors at Hendrix College, and Noah Morris, another student and peer at Hendrix College. Dr. Goadrich began the meeting by introducing us to the basic structure and syntax of the RECYCLE language. Additionally, we played Hearts and Pairs to learn some of the card games we would be working with throughout this project. Afterwards, Dr. Goadrich showed us the code for those games in the RECYCLE language so that we could compare them and start working on our own.
